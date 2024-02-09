@@ -28,6 +28,9 @@ npm install
 # Start the PostgreSQL and Redis container
 docker-compose up -d
 
+# Run prisma generate
+npx prisma generate
+
 # Start the project
 npm run dev
 ```
