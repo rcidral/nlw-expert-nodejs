@@ -28,6 +28,9 @@ npm install
 # Start the PostgreSQL and Redis container
 docker-compose up -d
 
+# Apply the migrations
+npx prisma migrate dev
+
 # Run prisma generate
 npx prisma generate
 
